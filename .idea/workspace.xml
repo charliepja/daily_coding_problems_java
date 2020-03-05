@@ -50,32 +50,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.DayTwoTest.canSetArrayList">
-    <configuration name="DayOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="daily_code_java" />
+  <component name="RunManager" selected="JUnit.DayTwoTest">
+    <configuration name="DayTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daily_coding_problems_java" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DayOneTest" />
+      <option name="MAIN_CLASS_NAME" value="DayTwoTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DayOneTest.returnsFalseWhenConditionNotMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="daily_code_java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DayOneTest" />
-      <option name="METHOD_NAME" value="returnsFalseWhenConditionNotMet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DayOneTest.returnsTrueWhenConditionMet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="daily_code_java" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DayOneTest" />
-      <option name="METHOD_NAME" value="returnsTrueWhenConditionMet" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,6 +65,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DayTwoTest" />
       <option name="METHOD_NAME" value="canSetArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DayTwoTest.doesNotRunWhenArrayListSizeLessThanThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daily_coding_problems_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DayTwoTest" />
+      <option name="METHOD_NAME" value="doesNotRunWhenArrayListSizeLessThanThree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,13 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DayTwoTest.returnsArrayListOfProductOfOriginalArrayList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="daily_coding_problems_java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DayTwoTest" />
+      <option name="METHOD_NAME" value="returnsArrayListOfProductOfOriginalArrayList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DayTwoTest.canSetArrayList" />
+        <item itemvalue="JUnit.DayTwoTest" />
+        <item itemvalue="JUnit.DayTwoTest.doesNotRunWhenArrayListSizeLessThanThree" />
         <item itemvalue="JUnit.DayTwoTest.doesNotRunWhenEmptyArrayList" />
-        <item itemvalue="JUnit.DayOneTest.returnsFalseWhenConditionNotMet" />
-        <item itemvalue="JUnit.DayOneTest.returnsTrueWhenConditionMet" />
-        <item itemvalue="JUnit.DayOneTest" />
+        <item itemvalue="JUnit.DayTwoTest.returnsArrayListOfProductOfOriginalArrayList" />
+        <item itemvalue="JUnit.DayTwoTest.canSetArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -133,22 +133,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="237" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583446736769" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583435544334">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583449352459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583435544334" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583435544334">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583449352459" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583449352459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583435544334" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583435544333">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583449352459" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583449352459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583435544333" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583435544334">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583449352459" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583449352459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583435544334" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/-1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1583449352459" />
     <state x="490" y="176" key="Maven.ArtifactSearchDialog" timestamp="1583363153498">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

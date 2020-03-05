@@ -8,17 +8,17 @@ import static org.junit.Assert.assertEquals;
 public class DayTwoTest {
     DayTwo dayTwo;
     ArrayList<Integer> result;
+    ArrayList<Integer> numbers;
 
     @Before
     public void before() {
         dayTwo = new DayTwo();
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        numbers = new ArrayList<Integer>();
         numbers.add(1);
         numbers.add(2);
         numbers.add(3);
         numbers.add(4);
         numbers.add(5);
-        dayTwo.setNumbers(numbers);
         result = new ArrayList<Integer>();
         result.add(120);
         result.add(60);
@@ -29,21 +29,30 @@ public class DayTwoTest {
 
     @Test
     public void canSetArrayList() {
+        dayTwo.setNumbers(numbers);
         assertEquals(5, dayTwo.totalNumbers());
     }
 
     @Test
     public void doesNotRunWhenEmptyArrayList() {
-        assertEquals("No numbers", dayTwo.productOfArray());
+        dayTwo.productOfArray();
+        assertEquals("No numbers", dayTwo.getResultMessage());
     }
 
     @Test
     public void doesNotRunWhenArrayListSizeLessThanThree() {
-        assertEquals("Not enough numbers", dayTwo.productOfArray());
+        numbers.remove(0);
+        numbers.remove(1);
+        numbers.remove(2);
+        dayTwo.setNumbers(numbers);
+        dayTwo.productOfArray();
+        assertEquals("Not enough numbers", dayTwo.getResultMessage());
     }
 
     @Test
     public void returnsArrayListOfProductOfOriginalArrayList() {
-        assertEquals(result, dayTwo.productOfArray());
+        dayTwo.setNumbers(numbers);
+        dayTwo.productOfArray();
+        assertEquals(result, dayTwo.getResultNumbers());
     }
 }
