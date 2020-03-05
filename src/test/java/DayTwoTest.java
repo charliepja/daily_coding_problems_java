@@ -28,17 +28,22 @@ public class DayTwoTest {
     }
 
     @Test
-    public void doesNotRunWhenEmptyArrayList() {
-        assertEquals("No numbers", dayTwo.productOfArray());
+    public void canSetArrayList() {
+        assertEquals(5, dayTwo.totalNumbers());
     }
 
-    @Test
-    public void doesNotRunWhenArrayListSizeLessThanThree() {
-        assertEquals("Not enough numbers", dayTwo.productOfArray());
-    }
-
-    @Test
-    public void returnsArrayListOfProductOfOriginalArrayList() {
-        assertEquals(result, dayTwo.productOfArray());
-    }
+//    @Test
+//    public void doesNotRunWhenEmptyArrayList() {
+//        assertEquals("No numbers", dayTwo.productOfArray());
+//    }
+//
+//    @Test
+//    public void doesNotRunWhenArrayListSizeLessThanThree() {
+//        assertEquals("Not enough numbers", dayTwo.productOfArray());
+//    }
+//
+//    @Test
+//    public void returnsArrayListOfProductOfOriginalArrayList() {
+//        assertEquals(result, dayTwo.productOfArray());
+//    }
 }
