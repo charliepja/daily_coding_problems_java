@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="daily_coding_problems_java" />
         <module name="daily_code_java" />
       </profile>
     </annotationProcessing>
